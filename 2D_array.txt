@@ -28,6 +28,7 @@ void setup() {
     }
 }
 
+
 void update(int[][] a, int d) { // array is passed by reference?
     int i = 0;
     while (i < a.length) {
@@ -42,6 +43,7 @@ void update(int[][] a, int d) { // array is passed by reference?
         i++;
     }
 }
+
 
 void draw_lines(int x, int y, int n) {
     int i = 0;
